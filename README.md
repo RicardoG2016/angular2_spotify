@@ -1,1 +1,1 @@
-# angular2_spotify
+# Angular2 Spotify App
