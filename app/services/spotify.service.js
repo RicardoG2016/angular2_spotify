@@ -17,7 +17,7 @@ var SpotifyService = (function () {
     }
     SpotifyService.prototype.searchMusic = function (str, type) {
         if (type === void 0) { type = 'artist'; }
-        this.searchUrl = 'https://api.spotify.com/search?query=' + str + '&offset=0&limit=20&type=' + type + '&market=US';
+        this.searchUrl = 'https://api.spotify.com/v1/search?query=' + str + '&offset=0&limit=20&type=' + type + '&market=US';
         return this._http.get(this.searchUrl)
             .map(function (res) { return res.json(); });
     };
