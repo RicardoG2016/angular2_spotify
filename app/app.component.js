@@ -17,7 +17,7 @@ var AppComponent = (function () {
             moduleId: module.id,
             selector: 'my-app',
             templateUrl: 'app.component.html',
-            precompile: 'SearchComponent, AboutComponent'
+            precompile: 'SearchComponent, AboutComponent',
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
