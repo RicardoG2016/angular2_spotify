@@ -4,6 +4,7 @@ import { SearchComponent } from './components/search/search.component';
 import { AboutComponent } from './components/about/about.component';
 import {HTTP_PROVIDERS} from '@angular/http';
 import { HttpModule } from '@angular/http';
+import { SpotifyService } from './services/spotify.service';
 
 
 @Component({
