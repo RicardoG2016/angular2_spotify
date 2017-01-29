@@ -15,9 +15,10 @@ var SearchComponent = (function () {
         this._spotifyService = _spotifyService;
     }
     SearchComponent.prototype.searchMusic = function () {
+        var _this = this;
         this._spotifyService.searchMusic(this.searchStr)
             .subscribe(function (res) {
-            console.log(res.artists.items);
+            _this.searchRes = res.artists.items;
         });
     };
     SearchComponent = __decorate([
