@@ -3,7 +3,6 @@ import { SpotifyService } from '../../services/spotify.service';
 import {Artist} from '../../../Artist';
 import {Album} from '../../../Album';
 import {ActivatedRoute} from '@angular/router';
-import { Routes, RouterModule } from '@angular/router';
 
 
 @Component({
@@ -33,7 +32,7 @@ export class ArtistComponent implements OnInit{
 
         this._spotifyService.getAlbums(id)
           .subscribe(albums => {
-            this.albums = albums.items;
+            this.albums = albums.items
           })
       })
   }
