@@ -2,10 +2,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.main{
+/*.main{
   border-bottom: #333 1px solid;
   padding: 30px 0;
-}
+}*/
 
 .artist-header{
   padding-bottom: 20px;
@@ -28,7 +28,7 @@
 
 .album{
   text-align: center;
-  background: #333;
+  background: #eeeeee;
   padding: 10px 20px;
   border: #666 1px solid;
 }
@@ -54,4 +54,34 @@
 .img-thumbnail {
   height: 223px !important;
   max-width: 223px !important;
+  background: #eeeeee !important;
+}
+
+.search-header{
+  padding-bottom: 10px;
+}
+
+.home-img{
+  text-align: center;
+}
+
+.home-img img{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.home-icon-text{
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+#home-header{
+  padding-bottom:70px;
+  text-align: center;
+}
+
+.jumbotron{
+  align-items: center;
+  margin: auto center;
 }
