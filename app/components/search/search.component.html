@@ -1,25 +1,28 @@
+<!-- home screen icons and header-->
 <div class="jumbotron">
-  <!-- <div class="search-header"> -->
-    <h1 id="home-header">Spoti-find</h1>
-
-    <div class="container">
+  <h1 id="home-header">Spoti-find</h1>
+  <div class="container">
     <div class="row home-img">
+
       <div class="col-md-4">
         <img src="assets/images/search2.png" alt="">
         <h4 class="home-icon-text">Search Artists</h4>
       </div>
+
       <div class="col-md-4">
         <img src="assets/images/sound.png" alt="">
         <h4 class="home-icon-text">Listen to sound clips</h4>
       </div>
+
       <div class="col-md-4">
         <img src="assets/images/smile.png" alt="">
         <h4 class="home-icon-text">Be happy</h4>
       </div>
+
     </div>
-  <!-- </div> -->
 </div>
 
+<!-- search bar below -->
   <form>
     <div class="form-group">
       <input type="text" name="searchStr" [(ngModel)]="searchStr" (keyup)="searchMusic()" class="form-control" placeholder="Search Music...">
@@ -27,7 +30,7 @@
   </form>
 </div>
 
-
+<!-- search result logic below -->
 <div *ngIf="searchRes">
   <div *ngFor="let res of searchRes">
     <div class="row">
