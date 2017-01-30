@@ -79,9 +79,20 @@
 #home-header{
   padding-bottom:70px;
   text-align: center;
+  color: #317eac;
 }
 
 .jumbotron{
   align-items: center;
-  margin: auto center;
+  vertical-align: middle;
+  margin-top: 75px;
+}
+
+footer{
+  padding: 30px;
+}
+
+footer img{
+  padding-right: 7px;
+  float: right;
 }
