@@ -5,6 +5,7 @@ import {Album} from '../../../Album';
 import {ActivatedRoute} from '@angular/router';
 
 
+
 @Component({
   moduleId: module.id,
   selector: 'artist',

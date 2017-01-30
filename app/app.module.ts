@@ -14,6 +14,7 @@ import {ArtistComponent} from './components/artists/artist.component';
 import { routing } from './app.routing';
 
 
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule, HttpModule, routing ],
   declarations: [ AppComponent, NavbarComponent, AboutComponent, SearchComponent, ArtistComponent, AlbumComponent ],

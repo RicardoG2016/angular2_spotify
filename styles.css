@@ -49,3 +49,8 @@
   margin-top: 30px;
   font-size: 30px;
 }
+
+.img-thumbnail {
+  height: 223px !important;
+  max-width: 223px !important;
+}
