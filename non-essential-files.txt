@@ -1,6 +1,0 @@
-.git
-.gitignore
-.travis.yml
-*.spec*.ts
-non-essential-files.txt
-README.md
