@@ -3,6 +3,18 @@
   color: #546e7a;
 }
 
+/* Prelaoder */
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #fff url("../images/preloader.svg") no-repeat center center;
+}
+
 .btn-default{
   color: #546e7a !important;
 }
@@ -105,7 +117,7 @@
 
 footer{
   margin-top: -10px;
-  padding: 30px;
+  padding: 0px 30px !important;
 }
 
 footer img{
