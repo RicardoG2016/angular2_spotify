@@ -130,3 +130,16 @@ footer img{
     border-color: #219ee5;
     box-shadow: 2px 2px solid;
 }
+/*---------*/
+@media only screen and (max-device-width : 736px) 
+and (orientation : portrait) { 
+
+h1#home-header{
+  font-size: 45px; 
+}
+
+hr#home-header{
+  display: block;
+}
+
+@media only screen and (min-device-width : 737px) { 
